@@ -12,7 +12,7 @@ const AppProvider = (props) => {
   //Use Local storage to save favorites Users so when refresh the page it still be there
   const [favorites, setFavorites] = useLocalStorage("favorites", []);
   return (
-    <AppContext.Provider
+    <AppContext.Provider 
       value={{
         users,
         setUsers,
